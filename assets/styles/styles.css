@@ -83,7 +83,6 @@ body .container .social-auth-btn-container .social-auth-btn-display .social-auth
 body .container .signing-option-text-container {
   width: 100%;
   position: relative;
-  padding: 1em 0;
 }
 
 body .container .signing-option-text-container .signing-option-text-display {
@@ -177,7 +176,6 @@ body .container .login-form .form-display .forget-password-container .forget-pas
 
 body .container .login-form .form-display .submit-btn-container {
   width: 100%;
-  padding: 1em 0;
 }
 
 body .container .login-form .form-display .submit-btn-container button {
