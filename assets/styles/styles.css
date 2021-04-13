@@ -5,7 +5,7 @@
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  font-family: 'Inter', san s-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   background-size: contain;
   background-position: bottom;
   font-weight: 400;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
 }
 
@@ -23,6 +23,7 @@ body .container {
   width: 80%;
   margin: 0 auto;
   padding: 1em 0;
+  height: 100vh;
 }
 
 body .container .login-logo-container {
