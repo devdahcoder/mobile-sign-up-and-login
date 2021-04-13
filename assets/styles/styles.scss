@@ -16,14 +16,13 @@ body {
     background-size: contain;
     background-position: bottom;
     font-weight: 400;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 
     .container {
         width: 80%;
         margin: 0 auto;
         padding: 1em 0;
-        height: 100vh;
 
         .login-logo-container {
             display: flex;
@@ -51,7 +50,7 @@ body {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                flex-wrap: wrap;
+                // flex-wrap: wrap;
 
                 .social-auth-btn {
                     background: #FFFFFF;
@@ -59,8 +58,9 @@ body {
                     border-radius: 8px;
                     outline: none;
                     border: 0px solid #000;
-                    width: 140px;
+                    // width: 140px;
                     max-width: 140px;
+                    min-width: 120px;
                     height: 60px;
                     display: flex;
                     align-items: center;
@@ -197,9 +197,9 @@ body {
                 justify-content: center;
                 font-size: 0.9rem;
 
-                span {
+                a {
                     color:#7189FF;
-                    font-size: 1rem;
+                    font-size: 0.9rem;
                     font-weight: 600;
                 }
             }

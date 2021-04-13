@@ -15,7 +15,7 @@ body {
   background-size: contain;
   background-position: bottom;
   font-weight: 400;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -23,7 +23,6 @@ body .container {
   width: 80%;
   margin: 0 auto;
   padding: 1em 0;
-  height: 100vh;
 }
 
 body .container .login-logo-container {
@@ -54,7 +53,6 @@ body .container .social-auth-btn-container .social-auth-btn-display {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 body .container .social-auth-btn-container .social-auth-btn-display .social-auth-btn {
@@ -63,8 +61,8 @@ body .container .social-auth-btn-container .social-auth-btn-display .social-auth
   border-radius: 8px;
   outline: none;
   border: 0px solid #000;
-  width: 140px;
   max-width: 140px;
+  min-width: 120px;
   height: 60px;
   display: flex;
   align-items: center;
@@ -199,9 +197,9 @@ body .container .new-member-link-container .new-member-link-display {
   font-size: 0.9rem;
 }
 
-body .container .new-member-link-container .new-member-link-display span {
+body .container .new-member-link-container .new-member-link-display a {
   color: #7189FF;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
 }
 /*# sourceMappingURL=styles.css.map */
