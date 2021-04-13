@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        // "target": "es6",
+        "rootDir": "./dist",
+        "outDir": "./dist",
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+        "removeComments": true,
+
+    }
+}
